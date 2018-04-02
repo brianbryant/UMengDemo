@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35BA2222071D18E004B268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BA2212071D18E004B268F /* AppDelegate.swift */; };
+		D35BA2242071D18E004B268F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BA2232071D18E004B268F /* ViewController.swift */; };
+		D35BA2272071D18E004B268F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35BA2252071D18E004B268F /* Main.storyboard */; };
+		D35BA2292071D18E004B268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35BA2282071D18E004B268F /* Assets.xcassets */; };
+		D35BA22C2071D18E004B268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35BA22A2071D18E004B268F /* LaunchScreen.storyboard */; };
+		D35BA2342071D1BF004B268F /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2332071D1BF004B268F /* UMCommon.framework */; };
+		D35BA2372071D1D5004B268F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2362071D1D5004B268F /* CoreTelephony.framework */; };
+		D35BA2392071D359004B268F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2382071D359004B268F /* libsqlite3.tbd */; };
+		D35BA23B2071D368004B268F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA23A2071D368004B268F /* libz.tbd */; };
+		D35BA2432071D789004B268F /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2422071D789004B268F /* UMAnalytics.framework */; };
+		D35BA2492071DD4D004B268F /* UMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2482071DD4D004B268F /* UMPush.framework */; };
+		D35BA24B2071DD80004B268F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA24A2071DD80004B268F /* UserNotifications.framework */; };
+		D35BA24D2071DF41004B268F /* AppDelegate-Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BA24C2071DF41004B268F /* AppDelegate-Notification.swift */; };
+		D3AE32FD207204D7002FEC7E /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3AE32ED207204D6002FEC7E /* UMSocialSDKResources.bundle */; };
+		D3AE32FE207204D7002FEC7E /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE32EE207204D6002FEC7E /* UShareUI.framework */; };
+		D3AE32FF207204D7002FEC7E /* UMShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE32EF207204D6002FEC7E /* UMShare.framework */; };
+		D3AE3300207204D7002FEC7E /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE32F2207204D6002FEC7E /* libSocialWeChat.a */; };
+		D3AE3301207204D7002FEC7E /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE32F5207204D6002FEC7E /* libSocialSina.a */; };
+		D3AE3302207204D7002FEC7E /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE32F9207204D6002FEC7E /* libSocialQQ.a */; };
+		D3AE3303207204D7002FEC7E /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3AE32FB207204D6002FEC7E /* UMSocialSDKPromptResources.bundle */; };
+		D3AE3304207204D7002FEC7E /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE32FC207204D6002FEC7E /* libUMSocialLog.a */; };
+		D3AE33062072099A002FEC7E /* AppDelegate-Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE33052072099A002FEC7E /* AppDelegate-Share.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D35BA21E2071D18E004B268F /* UMengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35BA2212071D18E004B268F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D35BA2232071D18E004B268F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D35BA2262071D18E004B268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35BA2282071D18E004B268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35BA22B2071D18E004B268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35BA22D2071D18E004B268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35BA2332071D1BF004B268F /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		D35BA2362071D1D5004B268F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D35BA2382071D359004B268F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D35BA23A2071D368004B268F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D35BA23C2071D509004B268F /* UMengDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		D35BA2422071D789004B268F /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		D35BA2482071DD4D004B268F /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMPush.framework; path = "../../友盟分享SDK/UMSDK/push/push_ios_3.1.0/UMPush.framework"; sourceTree = "<group>"; };
+		D35BA24A2071DD80004B268F /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D35BA24C2071DF41004B268F /* AppDelegate-Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate-Notification.swift"; sourceTree = "<group>"; };
+		D35BA24E2071E90A004B268F /* UMengDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UMengDemo.entitlements; sourceTree = "<group>"; };
+		D3AE32ED207204D6002FEC7E /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		D3AE32EE207204D6002FEC7E /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		D3AE32EF207204D6002FEC7E /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMShare.framework; sourceTree = "<group>"; };
+		D3AE32F2207204D6002FEC7E /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		D3AE32F3207204D6002FEC7E /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		D3AE32F5207204D6002FEC7E /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		D3AE32F6207204D6002FEC7E /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		D3AE32F8207204D6002FEC7E /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		D3AE32F9207204D6002FEC7E /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		D3AE32FB207204D6002FEC7E /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		D3AE32FC207204D6002FEC7E /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
+		D3AE33052072099A002FEC7E /* AppDelegate-Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate-Share.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35BA21B2071D18E004B268F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AE3302207204D7002FEC7E /* libSocialQQ.a in Frameworks */,
+				D35BA24B2071DD80004B268F /* UserNotifications.framework in Frameworks */,
+				D3AE32FF207204D7002FEC7E /* UMShare.framework in Frameworks */,
+				D35BA23B2071D368004B268F /* libz.tbd in Frameworks */,
+				D35BA2392071D359004B268F /* libsqlite3.tbd in Frameworks */,
+				D35BA2492071DD4D004B268F /* UMPush.framework in Frameworks */,
+				D3AE32FE207204D7002FEC7E /* UShareUI.framework in Frameworks */,
+				D3AE3300207204D7002FEC7E /* libSocialWeChat.a in Frameworks */,
+				D3AE3301207204D7002FEC7E /* libSocialSina.a in Frameworks */,
+				D35BA2372071D1D5004B268F /* CoreTelephony.framework in Frameworks */,
+				D3AE3304207204D7002FEC7E /* libUMSocialLog.a in Frameworks */,
+				D35BA2432071D789004B268F /* UMAnalytics.framework in Frameworks */,
+				D35BA2342071D1BF004B268F /* UMCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35BA2152071D18E004B268F = {
+			isa = PBXGroup;
+			children = (
+				D35BA2202071D18E004B268F /* UMengDemo */,
+				D35BA21F2071D18E004B268F /* Products */,
+				D35BA2352071D1D5004B268F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D35BA21F2071D18E004B268F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35BA21E2071D18E004B268F /* UMengDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35BA2202071D18E004B268F /* UMengDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32EB207204D6002FEC7E /* share_ios_6.8.2 */,
+				D35BA24E2071E90A004B268F /* UMengDemo.entitlements */,
+				D35BA2482071DD4D004B268F /* UMPush.framework */,
+				D35BA2422071D789004B268F /* UMAnalytics.framework */,
+				D35BA2332071D1BF004B268F /* UMCommon.framework */,
+				D35BA2212071D18E004B268F /* AppDelegate.swift */,
+				D35BA2232071D18E004B268F /* ViewController.swift */,
+				D35BA2252071D18E004B268F /* Main.storyboard */,
+				D35BA2282071D18E004B268F /* Assets.xcassets */,
+				D35BA22A2071D18E004B268F /* LaunchScreen.storyboard */,
+				D35BA22D2071D18E004B268F /* Info.plist */,
+				D35BA23C2071D509004B268F /* UMengDemo-Bridging-Header.h */,
+				D35BA24C2071DF41004B268F /* AppDelegate-Notification.swift */,
+				D3AE33052072099A002FEC7E /* AppDelegate-Share.swift */,
+			);
+			path = UMengDemo;
+			sourceTree = "<group>";
+		};
+		D35BA2352071D1D5004B268F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35BA24A2071DD80004B268F /* UserNotifications.framework */,
+				D35BA23A2071D368004B268F /* libz.tbd */,
+				D35BA2382071D359004B268F /* libsqlite3.tbd */,
+				D35BA2362071D1D5004B268F /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3AE32EB207204D6002FEC7E /* share_ios_6.8.2 */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32EC207204D6002FEC7E /* UMSocialUI */,
+				D3AE32EF207204D6002FEC7E /* UMShare.framework */,
+				D3AE32F0207204D6002FEC7E /* SocialLibraries */,
+				D3AE32FA207204D6002FEC7E /* UMSocialSDKPlugin */,
+			);
+			path = share_ios_6.8.2;
+			sourceTree = "<group>";
+		};
+		D3AE32EC207204D6002FEC7E /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32ED207204D6002FEC7E /* UMSocialSDKResources.bundle */,
+				D3AE32EE207204D6002FEC7E /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		D3AE32F0207204D6002FEC7E /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32F1207204D6002FEC7E /* WeChat */,
+				D3AE32F4207204D6002FEC7E /* Sina */,
+				D3AE32F7207204D6002FEC7E /* QQ */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		D3AE32F1207204D6002FEC7E /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32F2207204D6002FEC7E /* libSocialWeChat.a */,
+				D3AE32F3207204D6002FEC7E /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		D3AE32F4207204D6002FEC7E /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32F5207204D6002FEC7E /* libSocialSina.a */,
+				D3AE32F6207204D6002FEC7E /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		D3AE32F7207204D6002FEC7E /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32F8207204D6002FEC7E /* UMSocialQQHandler.h */,
+				D3AE32F9207204D6002FEC7E /* libSocialQQ.a */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		D3AE32FA207204D6002FEC7E /* UMSocialSDKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32FB207204D6002FEC7E /* UMSocialSDKPromptResources.bundle */,
+				D3AE32FC207204D6002FEC7E /* libUMSocialLog.a */,
+			);
+			path = UMSocialSDKPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35BA21D2071D18E004B268F /* UMengDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35BA2302071D18E004B268F /* Build configuration list for PBXNativeTarget "UMengDemo" */;
+			buildPhases = (
+				D35BA21A2071D18E004B268F /* Sources */,
+				D35BA21B2071D18E004B268F /* Frameworks */,
+				D35BA21C2071D18E004B268F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengDemo;
+			productName = UMengDemo;
+			productReference = D35BA21E2071D18E004B268F /* UMengDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35BA2162071D18E004B268F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Brian Inc.";
+				TargetAttributes = {
+					D35BA21D2071D18E004B268F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D35BA2192071D18E004B268F /* Build configuration list for PBXProject "UMengDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35BA2152071D18E004B268F;
+			productRefGroup = D35BA21F2071D18E004B268F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35BA21D2071D18E004B268F /* UMengDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35BA21C2071D18E004B268F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AE3303207204D7002FEC7E /* UMSocialSDKPromptResources.bundle in Resources */,
+				D35BA22C2071D18E004B268F /* LaunchScreen.storyboard in Resources */,
+				D3AE32FD207204D7002FEC7E /* UMSocialSDKResources.bundle in Resources */,
+				D35BA2292071D18E004B268F /* Assets.xcassets in Resources */,
+				D35BA2272071D18E004B268F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35BA21A2071D18E004B268F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35BA24D2071DF41004B268F /* AppDelegate-Notification.swift in Sources */,
+				D35BA2242071D18E004B268F /* ViewController.swift in Sources */,
+				D3AE33062072099A002FEC7E /* AppDelegate-Share.swift in Sources */,
+				D35BA2222071D18E004B268F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D35BA2252071D18E004B268F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35BA2262071D18E004B268F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35BA22A2071D18E004B268F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35BA22B2071D18E004B268F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35BA22E2071D18E004B268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D35BA22F2071D18E004B268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35BA2312071D18E004B268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = UMengDemo/UMengDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZZS76SEL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMengDemo",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/UMSocialUI",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2",
+				);
+				INFOPLIST_FILE = UMengDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/UMSocialSDKPlugin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jietusoft.UToVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMengDemo/UMengDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35BA2322071D18E004B268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = UMengDemo/UMengDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZZS76SEL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMengDemo",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/UMSocialUI",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2",
+				);
+				INFOPLIST_FILE = UMengDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/UMengDemo/share_ios_6.8.2/UMSocialSDKPlugin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jietusoft.UToVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMengDemo/UMengDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35BA2192071D18E004B268F /* Build configuration list for PBXProject "UMengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35BA22E2071D18E004B268F /* Debug */,
+				D35BA22F2071D18E004B268F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35BA2302071D18E004B268F /* Build configuration list for PBXNativeTarget "UMengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35BA2312071D18E004B268F /* Debug */,
+				D35BA2322071D18E004B268F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35BA2162071D18E004B268F /* Project object */;
+}
