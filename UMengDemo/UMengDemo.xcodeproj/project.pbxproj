@@ -17,7 +17,6 @@
 		D35BA2392071D359004B268F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2382071D359004B268F /* libsqlite3.tbd */; };
 		D35BA23B2071D368004B268F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA23A2071D368004B268F /* libz.tbd */; };
 		D35BA2432071D789004B268F /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2422071D789004B268F /* UMAnalytics.framework */; };
-		D35BA2492071DD4D004B268F /* UMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA2482071DD4D004B268F /* UMPush.framework */; };
 		D35BA24B2071DD80004B268F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA24A2071DD80004B268F /* UserNotifications.framework */; };
 		D35BA24D2071DF41004B268F /* AppDelegate-Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BA24C2071DF41004B268F /* AppDelegate-Notification.swift */; };
 		D3AE32FD207204D7002FEC7E /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3AE32ED207204D6002FEC7E /* UMSocialSDKResources.bundle */; };
@@ -29,6 +28,7 @@
 		D3AE3303207204D7002FEC7E /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3AE32FB207204D6002FEC7E /* UMSocialSDKPromptResources.bundle */; };
 		D3AE3304207204D7002FEC7E /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE32FC207204D6002FEC7E /* libUMSocialLog.a */; };
 		D3AE33062072099A002FEC7E /* AppDelegate-Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE33052072099A002FEC7E /* AppDelegate-Share.swift */; };
+		D3AE346F20725219002FEC7E /* UMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AE346E20725219002FEC7E /* UMPush.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,6 @@
 		D35BA23A2071D368004B268F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D35BA23C2071D509004B268F /* UMengDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		D35BA2422071D789004B268F /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
-		D35BA2482071DD4D004B268F /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMPush.framework; path = "../../友盟分享SDK/UMSDK/push/push_ios_3.1.0/UMPush.framework"; sourceTree = "<group>"; };
 		D35BA24A2071DD80004B268F /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		D35BA24C2071DF41004B268F /* AppDelegate-Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate-Notification.swift"; sourceTree = "<group>"; };
 		D35BA24E2071E90A004B268F /* UMengDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UMengDemo.entitlements; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		D3AE32FB207204D6002FEC7E /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
 		D3AE32FC207204D6002FEC7E /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
 		D3AE33052072099A002FEC7E /* AppDelegate-Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate-Share.swift"; sourceTree = "<group>"; };
+		D3AE346E20725219002FEC7E /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMPush.framework; path = "../../../友盟分享SDK/UMSDK/push/push_ios_3.1.0/UMPush.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +73,9 @@
 				D3AE32FF207204D7002FEC7E /* UMShare.framework in Frameworks */,
 				D35BA23B2071D368004B268F /* libz.tbd in Frameworks */,
 				D35BA2392071D359004B268F /* libsqlite3.tbd in Frameworks */,
-				D35BA2492071DD4D004B268F /* UMPush.framework in Frameworks */,
 				D3AE32FE207204D7002FEC7E /* UShareUI.framework in Frameworks */,
 				D3AE3300207204D7002FEC7E /* libSocialWeChat.a in Frameworks */,
+				D3AE346F20725219002FEC7E /* UMPush.framework in Frameworks */,
 				D3AE3301207204D7002FEC7E /* libSocialSina.a in Frameworks */,
 				D35BA2372071D1D5004B268F /* CoreTelephony.framework in Frameworks */,
 				D3AE3304207204D7002FEC7E /* libUMSocialLog.a in Frameworks */,
@@ -107,9 +107,9 @@
 		D35BA2202071D18E004B268F /* UMengDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D3AE346E20725219002FEC7E /* UMPush.framework */,
 				D3AE32EB207204D6002FEC7E /* share_ios_6.8.2 */,
 				D35BA24E2071E90A004B268F /* UMengDemo.entitlements */,
-				D35BA2482071DD4D004B268F /* UMPush.framework */,
 				D35BA2422071D789004B268F /* UMAnalytics.framework */,
 				D35BA2332071D1BF004B268F /* UMCommon.framework */,
 				D35BA2212071D18E004B268F /* AppDelegate.swift */,
